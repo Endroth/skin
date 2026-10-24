@@ -1,0 +1,13 @@
+name: SkinChanger
+version: 1.0
+main: com.skin.SkinPlugin
+api-version: "1.20"
+description: Use a skin de outro jogador com /skin
+commands:
+  skin:
+    description: Usa a skin de outro jogador ou volta a sua
+    usage: /skin <nome> | /skin clear
+permissions:
+  skin.use:
+    description: Permite usar o comando /skin
+    default: true
